@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\953502\2 сем\Прога\C#\laba 1\laba1_1\laba1_1\bin\Debug\laba1_1.exe.config
+C:\Users\user\Desktop\953502\2 сем\Прога\C#\laba 1\laba1_1\laba1_1\bin\Debug\laba1_1.exe
+C:\Users\user\Desktop\953502\2 сем\Прога\C#\laba 1\laba1_1\laba1_1\bin\Debug\laba1_1.pdb
+C:\Users\user\Desktop\953502\2 сем\Прога\C#\laba 1\laba1_1\laba1_1\obj\Debug\laba1_1.csprojAssemblyReference.cache
+C:\Users\user\Desktop\953502\2 сем\Прога\C#\laba 1\laba1_1\laba1_1\obj\Debug\laba1_1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\953502\2 сем\Прога\C#\laba 1\laba1_1\laba1_1\obj\Debug\laba1_1.exe
+C:\Users\user\Desktop\953502\2 сем\Прога\C#\laba 1\laba1_1\laba1_1\obj\Debug\laba1_1.pdb
