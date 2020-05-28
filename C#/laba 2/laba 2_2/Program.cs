@@ -28,8 +28,7 @@ namespace laba_2_2
             for (int i = 0; i < numberOfLines; i++)
             {
                 for (int j = 0; j < 4; j++)
-                {//это диапазон генерируемых кодов (см. таблицу Unicode)
-                 // от " "(шестнадцатеричный код 0x0020) до "delete"(шестнадцатеричный код 0x007F)
+                {
                     result[i, j] = (char)rand.Next(0x0020, 0x007F);
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write(result[i, j] + "");
