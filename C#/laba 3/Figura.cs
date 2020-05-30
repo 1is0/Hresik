@@ -97,12 +97,12 @@ namespace geometricFigure
 
         public double Perimetr(double a)
         {
-            return a + a + a + a;
+            return a * 4;
         }
 
         public double Perimetr(double a, double b)
         {
-            return a + a + b + b;
+            return a * 2 + b * 2;
         }
 
         public double Perimetr(double a, double b, double c)
