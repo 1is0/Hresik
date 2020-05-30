@@ -2,7 +2,6 @@
 
 namespace geometricFigure
 {
-
     class Program
     {
         static double InputCheck()
