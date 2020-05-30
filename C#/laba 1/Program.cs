@@ -16,8 +16,7 @@ namespace ConsoleApplication1
             {
                 numberOfMistak += 1;
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("\nInput Error!");
-           
+                Console.WriteLine("\nInput Error!");           
             }
 
             double fromStringToNumber;
@@ -46,12 +45,8 @@ namespace ConsoleApplication1
                     Environment.Exit(-1);
                 }
             }
-
-            //конечный массив,в котором будет разбитая строчка
             string[] c = new string[a.Length + b.Length];
 
-            //заполнение конечного массива c[] по порядку
-            
             for (int i = -1, k = 0; i < (c.Length - 1); i += 1, k++) 
              {
                 i += 1;
@@ -65,7 +60,6 @@ namespace ConsoleApplication1
                 d++;
             }
 
-            //вычисляет выражение без скобок.Выражение должно состоять из операторов "*,/",другие не учитываются
             int count = 0;
             for (int i = 1; i < c.Length - 1; i++)
             {
@@ -85,9 +79,8 @@ namespace ConsoleApplication1
                 }
             }
 
-            //создаём массив без символов равным null
             string[] n = new string[c.Length - count];
-            //заполняем массив символами
+
             for (int i = 0, j = 0; i < c.Length; i++)
             {
                 if (c[i] != null)
@@ -97,8 +90,6 @@ namespace ConsoleApplication1
                 }
             }
 
-            //Вычисляет простое выражение (при вхоящих знаках "+, -") из входящего массива строк (строка(массив строк) 
-            //к примеру "1+2+3-1,5")
             for (int i = 1; i < n.Length - 1; i++)
             {
                 if (n[i] == "+")
