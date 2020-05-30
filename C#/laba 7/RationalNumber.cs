@@ -15,7 +15,7 @@ namespace laba_7
             _denominator = denominator;
         }
 
-        public RationalNumber(string form) //реализация перевода из строкового значения 
+        public RationalNumber(string form)
         {
             char[] numerator = new char[25];
             char[] denominator = new char[25];
@@ -39,16 +39,14 @@ namespace laba_7
             _numerator = Convert.ToInt32(str1);
             _denominator = Convert.ToInt32(str2);
         }
-
-        //Реализация интерфейса
+        
         public bool Equals(RationalNumber another)
         {
             if (another is null)
                 return false;
             return _numerator * another._denominator == another._numerator * _denominator;
         }
-
-        //Математические операции
+        
         public static RationalNumber operator +(RationalNumber a, RationalNumber b)
         {
             if (a._denominator == b._denominator)
@@ -85,7 +83,6 @@ namespace laba_7
             return new RationalNumber(a._numerator * b._denominator, a._denominator * b._numerator);
         }
 
-        //Операции сравнения
         public static bool operator >(RationalNumber a, RationalNumber b)
         {
             return (double)a > (double)b;
@@ -116,7 +113,6 @@ namespace laba_7
             return !a.Equals((object)b);
         }
 
-        //Операции преобразования типов
         public static explicit operator double(RationalNumber num)
         {
             return (double)num._numerator / num._denominator;
@@ -127,7 +123,6 @@ namespace laba_7
             return num._numerator / num._denominator;
         }
 
-        // Преобразование в строку
         public override string ToString()
         {
             return $"{_numerator} / {_denominator}";
