@@ -6,7 +6,6 @@ namespace geometricFigure
     {
         //делегаты
         delegate void Show();
-        delegate void MenuHandler(string message);
 
         private static void Welcome()
         {
